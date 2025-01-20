@@ -36,3 +36,13 @@ export default [
     },
   },
 ]
+
+module.exports = {
+  extends: ["eslint:recommended", "plugin:react/recommended"],
+  plugins: ["react"],
+  rules: {
+    "react/prop-types": "off", // propTypes の警告を無効化
+  },
+};
+
+
